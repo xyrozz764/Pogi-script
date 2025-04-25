@@ -1,6 +1,6 @@
-‎local player = game.Players.LocalPlayer
+local player = game.Players.LocalPlayer
 ‎
-‎local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/jensonhirst/Orion/main/source'))()
+‎local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xyrozz764/Pogi-script/main/READMEmd.lua"))()
 ‎
 ‎local Window = OrionLib:MakeWindow({
 ‎    Name = "pogis hub",
@@ -10,7 +10,7 @@
 ‎})
 ‎
 ‎local Tab = Window:MakeTab({
-‎    Name = "Tab 1",
+‎    Name = "nyek",
 ‎    Icon = "rbxassetid://4483345998",
 ‎    PremiumOnly = false
 ‎})
@@ -21,28 +21,6 @@
 ‎
 ‎OrionLib:MakeNotification({
 ‎    Name = "SHABU",
-‎    Content = "Notification content... what will it say??",
+‎    Content = miss mo
 ‎    Image = "rbxassetid://4483345998",
 ‎    Time = 5
-‎})
-‎
-‎-- WalkSpeed Button
-‎Tab:AddButton({
-‎    Name = "Set Walkspeed to 27",
-‎    Callback = function()
-‎        if player.Character and player.Character:FindFirstChild("Humanoid") then
-‎            player.Character.Humanoid.WalkSpeed = 27
-‎        end
-‎    end    
-‎})
-‎
-‎-- JumpPower Button
-‎Tab:AddButton({
-‎    Name = "Set JumpPower to 50",
-‎    Callback = function()
-‎        if player.Character and player.Character:FindFirstChild("Humanoid") then
-‎            player.Character.Humanoid.JumpPower = 50
-‎        end
-‎    end    
-‎})
-‎

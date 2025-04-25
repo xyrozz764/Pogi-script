@@ -1,6 +1,6 @@
 local player = game.Players.LocalPlayer
 ‎
-‎local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xyrozz764/Pogi-script/main/READMEmd.lua"))()
+‎local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/xyrozz764/Pogi-script/main/AutoPuch.lua"))()
 ‎
 ‎local Window = OrionLib:MakeWindow({
 ‎    Name = "pogis hub",

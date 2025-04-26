@@ -24,3 +24,17 @@ local player = game.Players.LocalPlayer
 ‎    Content = miss mo
 ‎    Image = "rbxassetid://4483345998",
 ‎    Time = 5
+
+    -- Pogi Hub Game Loader
+if game.PlaceId == 3623096087 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xyrozz764/Pogi-script/main/AutoPuch/source.lua"))()
+else
+    warn("Pogi Hub: Unsupported game.")
+    pcall(function()
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "Pogi Hub",
+            Text = "Game not supported.",
+            Duration = 3
+        })
+    end)
+    end
